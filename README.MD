@@ -20,6 +20,9 @@ Interfaccia semplice, completamente responsive, con countdown dinamico che cambi
 -  **Completamente responsive**  
 
 
+---
+
+
 ## 📸 Screenshot dell’applicazione
 
 ![Screenshot1](./images/screenshot1.png)
