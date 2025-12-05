@@ -31,7 +31,7 @@ Interfaccia semplice, completamente responsive, con countdown dinamico che cambi
 
 ![Screenshot3](./images/screenshot3.png)
 
-![Screenshot4](./images/screenshot3.png)
+![Screenshot4](./images/screenshot4.png)
 
 
 ---
