@@ -1,0 +1,193 @@
+/* ===========================
+   RESET
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===========================
+   SFONDO
+=========================== */
+
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: -1;
+}
+
+/* ===========================
+   CONTENITORE
+=========================== */
+
+.container {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 2.5rem;
+  max-width: 360px;
+  width: 90%;
+  text-align: center;
+  backdrop-filter: blur(20px) saturate(160%);
+  box-shadow: 
+    0 0 0 1px rgba(255, 255, 255, 0.25),
+    0 20px 45px rgba(0, 0, 0, 0.3);
+}
+
+/* ===========================
+   TITOLO
+=========================== */
+
+.title {
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* ===========================
+   ORARI (Inizio / Fine)
+=========================== */
+
+.times {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.time-box {
+  text-align: center;
+}
+
+.time-box label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ececec;
+}
+
+.time-box span {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* ===========================
+   COUNTDOWN
+=========================== */
+
+.countdown {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Cambi colore automatici */
+.countdown.green { color: #10b981; }
+.countdown.yellow { color: #facc15; }
+.countdown.red { color: #ef4444; }
+
+/* ===========================
+   MESSAGGIO FINALE
+=========================== */
+
+.message {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  height: 24px; /* Evita spostamenti */
+  margin-bottom: 1rem;
+}
+
+/* ===========================
+   BOTTONI
+=========================== */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn {
+  padding: 1rem 1.8rem;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Colori pulsanti */
+.btn-green {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+
+.btn-red {
+  background: linear-gradient(135deg, #ef4444, #c81e1e);
+}
+
+/* ===========================
+   RESPONSIVE MOBILE
+=========================== */
+
+@media (max-width: 480px) {
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .countdown {
+    font-size: 3rem;
+  }
+
+  .time-box span {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

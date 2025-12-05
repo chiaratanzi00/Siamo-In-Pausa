@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Pausa</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <h1 class="title">🐾 Siamo in Pausa ☕</h1>
+
+        <div class="times">
+            <div class="time-box">
+                <label>Inizio</label>
+                <span id="startTime">--:--</span>
+            </div>
+
+            <div class="time-box">
+                <label>Fine</label>
+                <span id="endTime">--:--</span>
+            </div>
+        </div>
+
+        <div id="countdown" class="countdown">15:00</div>
+
+        <div id="message" class="message"></div>
+
+        <div class="buttons">
+            <button id="startBtn" class="btn btn-green">Inizia</button>
+            <button id="resetBtn" class="btn btn-red">Reset</button>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
