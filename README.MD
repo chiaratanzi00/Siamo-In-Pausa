@@ -1,7 +1,7 @@
-# 🐾 Timer Pausa — Dog Friendly Break Timer
+# Siamo in Pausa – Break Timer Web Application
 
-Un timer moderno, minimal per gestire le pause da 15 minuti.  
-Interfaccia semplice, completamente responsive, con countdown dinamico che cambia colore in base al tempo rimanente.
+Applicazione web front-end per la gestione di una pausa di 15 minuti tramite countdown dinamico.
+L’interfaccia è semplice e completamente responsive, con indicazione visiva del tempo rimanente tramite cambio colore.
 
 *Progetto realizzato durante il Corso Front End – 2025.*
 
@@ -9,21 +9,21 @@ Interfaccia semplice, completamente responsive, con countdown dinamico che cambi
 ---
 
 
-##  Funzionalità
+## Funzionalità
 
-- **Pausa di 15 minuti** con calcolo automatico dell’orario di inizio e fine  
-- **Countdown dinamico** aggiornato ogni secondo  
-- **Cambio colore automatico**:
-  - 🟢 più di 10 minuti rimanenti  
-  - 🟡 tra 10 e 3 minuti  
-  - 🔴 meno di 3 minuti   
--  **Completamente responsive**  
+- Timer di pausa da 15 minuti con calcolo automatico di inizio e fine
+- Countdown aggiornato in tempo reale
+- Indicatore visivo del tempo rimanente:
+  - verde: più di 10 minuti
+  - giallo: tra 10 e 3 minuti
+  - rosso: meno di 3 minuti
+- Layout responsive per desktop e mobile
 
 
 ---
 
 
-## 📸 Screenshot dell’applicazione
+## 📸 Screenshot 
 
 ![Screenshot1](./images/screenshot1.png)
 
@@ -39,16 +39,15 @@ Interfaccia semplice, completamente responsive, con countdown dinamico che cambi
 
 ## Tecnologie Utilizzate
 
-- Html
-- Css
-- Bootstrap 
-- Bootstrap Icons
+- HTML5
+- CSS3
 - JavaScript
+- Bootstrap
 - VS Code
 
 
 ---
 
-## 👩‍💻 Autrice 
 
+## 👩‍💻 Autrice 
 **Chiara Tanzi**
