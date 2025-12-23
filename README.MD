@@ -38,9 +38,4 @@ L’interfaccia è semplice e completamente responsive, con indicazione visiva d
 - CSS3
 - JavaScript
 - Bootstrap
-- VS Code
 
-
-
-## 👩‍💻 Autrice 
-**Chiara Tanzi**
