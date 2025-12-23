@@ -3,10 +3,9 @@
 Applicazione web front-end per la gestione di una pausa di 15 minuti tramite countdown dinamico.
 L’interfaccia è semplice e completamente responsive, con indicazione visiva del tempo rimanente tramite cambio colore.
 
-*Progetto realizzato durante il Corso Front End – 2025.*
-
 
 ---
+
 
 
 ## Funzionalità
@@ -20,8 +19,6 @@ L’interfaccia è semplice e completamente responsive, con indicazione visiva d
 - Layout responsive per desktop e mobile
 
 
----
-
 
 ## 📸 Screenshot 
 
@@ -34,8 +31,6 @@ L’interfaccia è semplice e completamente responsive, con indicazione visiva d
 ![Screenshot4](./images/screenshot4.png)
 
 
----
-
 
 ## Tecnologie Utilizzate
 
@@ -45,8 +40,6 @@ L’interfaccia è semplice e completamente responsive, con indicazione visiva d
 - Bootstrap
 - VS Code
 
-
----
 
 
 ## 👩‍💻 Autrice 
